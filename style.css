@@ -1,4 +1,26 @@
-h1{
-    color:aquamarine;
-    background-color:blanchedalmond;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+
+}
+button{
+    border: none;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 999px;
+    color:brown;
+}
+button:hover{
+    cursor: pointer;
+    background-color: darkgreen;
+
 }
