@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+nav{
+    position: fixed;
+    top: 0;
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+#s1 {
+    min-height: 100vh;
+    background-color: chocolate;
+}
+
+#s2 {
+    min-height: 100vh;
+    background-color: aquamarine;
+}
+#s3{
+    min-height: 100vh;
+    background-color: crimson;
+}
+#s4{
+    min-height: 100vh;
+    background-color: chartreuse;
+}
