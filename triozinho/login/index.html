@@ -15,7 +15,7 @@
 <body>
     <div class="container">
         <div class="round">
-            <i class="fa-solid fa-circle-user"></i>
+            <i class="fa-solid fa-circle-user logo"></i>
         </div>
         <div class="wrap-input-label">
             <label for="nome">Nome</label>
@@ -28,10 +28,12 @@
                 <img class="eye" src="./images/eye.png" alt="Olhos" id="eye">
             </div>
         </div>
-    </div>
-    <div>
         <p>Esqueci minha senha</p>
-        <button onclick="login()">❌</button>
+        <button class="btn-login" onclick="login()">Login</button>
+    </div>
+    <div class="error-div" id="error-modal">
+        <h3>Credenciais incorretas</h3>
+        <button onclick="fecharError()">❌</button>
     </div>
         <script src="script.js"></script>
 </body>
