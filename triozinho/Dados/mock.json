@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "descriçao":"Centro de Doces",
+        "imagem": "",
+        "preço": 110.0
+    },
+    {
+        "id": 1,
+        "descriçao":"Centro de Salgados",
+        "imagem": "",
+        "preço": 100.0
+    },
+    {
+        "id": 1,
+        "descriçao":"Centro de Aperitivos",
+        "imagem": "",
+        "preço": 50.0 
+    },
+    {
+        "id": 1,
+        "descriçao":"Centro de Bebidas",
+        "imagem": "",
+        "preço": 200.0 
+    }
+]
