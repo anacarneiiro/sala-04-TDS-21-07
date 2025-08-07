@@ -2,14 +2,15 @@ function login(){
     var nome = $('Nome').val()
     var senha = $('Senha').val()
 
-    if(nome && senha && nome === "anjos" && senha === "9EDB402Ba"){
+    if(nome && senha && nome === "Anjos" && senha === "9EDB402Ba"){
         const user ={
             nome: nome,
             dataEntrada: new Date(),
             id: Math.floor(Math.randon() * 100000)
         };
         localStorage.setItem("usuario", JSON.stringify(user))
-        window.location.href = ""
+        window.location.href = "../Loja/index.html"
+
     }else{
         document.getElementById("error-modal").style.display = "flex"
         document.getElementById("nome").style.borderBottom = "3px solid red"
