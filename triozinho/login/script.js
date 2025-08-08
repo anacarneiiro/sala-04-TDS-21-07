@@ -1,12 +1,12 @@
 function login(){
-    var nome = $('Nome').val()
-    var senha = $('Senha').val()
-
-    if(nome && senha && nome === "Anjos" && senha === "9EDB402Ba"){
+    var nome = $('#nome').val()
+    var senha = $('#senha').val()
+console.log(nome,senha)
+    if(nome && senha && nome === "Anjos" && senha === "1234"){
         const user ={
-            nome: nome,
+            name: nome,
             dataEntrada: new Date(),
-            id: Math.floor(Math.randon() * 100000)
+            id: Math.floor(Math.random() * 100000)
         };
         localStorage.setItem("usuario", JSON.stringify(user))
         window.location.href = "../Loja/index.html"
