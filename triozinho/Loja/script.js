@@ -33,10 +33,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 card.className = 'card'
                 card.style.width = '18rem'
                 card.style.marginRight = '10px'
+                card.style.borderRadius = '20px'
 
                 const imagem = document.createElement('img')
                 imagem.src = produto.imagem
                 imagem.className = 'card-img-top'
+                imagem.style.borderRadius = '20px'
+
 
                 const cardBody = document.createElement('div')
                 cardBody.className = 'card-body'
@@ -51,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 const btnAdicionarAoCarrinho = document.createElement('a')
                 btnAdicionarAoCarrinho.href = '#'
-                btnAdicionarAoCarrinho.className = 'btn btn-primary btn-adicionar-ao-carrinho'
+                btnAdicionarAoCarrinho.className = 'btn btn-outline-dark btn-sm btn-adicionar-ao-carrinho'
                 btnAdicionarAoCarrinho.textContent = 'Adicionar ao carrinho'
                 btnAdicionarAoCarrinho.setAttribute('data-indice', index)
 
@@ -66,4 +69,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 produtosContainer.appendChild(card)
             });
         }).catch((error) => console.error('Erro ao carregar dados', error))
+
+        
+        $('#produtos-container').on('click', '.btn-adicionar-ao-carrinho', function(){
+            const indexDoProduto = $(this).data("indice")
+            const produtoSelecionado = produtos[indexDoProduto]
+
+            let carrinho = JSON.parse(localStorage.getItem('carrinho')) || []
+
+            carrinho.push(produtoSelecionado)
+            localStorage.setItem("carrinho", JSON.stringify(carrinho))
+
+            alert("Produto adicionado com sucesso")
+        })
 });

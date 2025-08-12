@@ -56,3 +56,14 @@ h1, h2{
     cursor: pointer;
     transform: rotate(360deg) scale(1.2);
 }
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn{
+    color: rgb(5, 5, 5);
+}

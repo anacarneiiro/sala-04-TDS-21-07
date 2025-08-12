@@ -1,26 +1,26 @@
 [
     {
         "id": 1,
-        "descriçao":"Centro de Doces",
+        "descricao":"Centro de Doces",
         "imagem": "../Dados/Images/doces.jpg",
-        "preço": 110.0
+        "preco": 110.0
     },
     {
         "id": 2,
-        "descriçao":"Centro de Salgados",
+        "descricao":"Centro de Salgados",
         "imagem": "../Dados/Images/salgados.webp",
-        "preço": 100.0
+        "preco": 100.0
     },
     {
         "id": 3,
-        "descriçao":"Centro de Aperitivos",
+        "descricao":"Centro de Aperitivos",
         "imagem": "../Dados/Images/aperitivos.jpg",
-        "preço": 50.0 
+        "preco": 50.0 
     },
     {
         "id": 4,
-        "descriçao":"Centro de Bebidas",
+        "descricao":"Centro de Bebidas",
         "imagem": "../Dados/Images/drink.jpeg",
-        "preço": 200.0 
+        "preco": 200.0 
     }
 ]
