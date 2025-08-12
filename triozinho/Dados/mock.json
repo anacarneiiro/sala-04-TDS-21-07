@@ -22,5 +22,11 @@
         "descricao":"Centro de Bebidas",
         "imagem": "../Dados/Images/drink.jpeg",
         "preco": 200.0 
+    },
+    {
+        "id": 5,
+        "descricao":"Centro de Bolachas",
+        "imagem": "../Dados/Images/fi-docinho-macaron.jpg",
+        "preco": 200.0 
     }
 ]

@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const imagem = document.createElement('img')
                 imagem.src = produto.imagem
                 imagem.className = 'card-img-top'
-                imagem.style.borderRadius = '20px'
+                imagem.style.borderRadius = '100px'
 
 
                 const cardBody = document.createElement('div')
