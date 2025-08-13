@@ -37,3 +37,42 @@
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.454) 0px 5px 5px;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+    padding: 20px;
+}
+
+h1{
+    font-weight: bolder;
+    letter-spacing: 7px;
+    font-size: 54px;
+}
+
+a{
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#lista{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 1vh;
+    background-color: rgba(209, 143, 0, 0.833);
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(27, 22, 22);
+}
+
+#lista li{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+}
