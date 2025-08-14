@@ -19,7 +19,7 @@ body{
 
 .container{
     position: relative;
-    background-color: #15616dbb;
+    background-color: #684717bb;
     width: 90vw;
     height: 402px;
     border: 2px solid #FFECD1;
@@ -46,6 +46,9 @@ body{
     top: -1%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.logo{
+   transform: scale(3);
 }
 
 .wrap-input-label{
@@ -87,7 +90,7 @@ body{
 }
 
 input::placeholder{
-    color: #001524;
+    color: #000000;
     font-size: 16px;
 }
 
@@ -96,16 +99,16 @@ input:focus{
     outline: none;
     color:#FF7D00;
     font-size: 16px;
-    border-bottom: 2px solid #FF7D00;
+    border-bottom: 2px solid #ff7b00;
 }
 
 .btn-login{
     padding: 10px;
     width: 81%;
-    background-color: #ff7b00;
+    background-color: #ff9100;
     border-radius: 999px;
     border: none;
-    border: 2px solid #001524;
+    border: 2px solid #ffffff;
     font-size: 20px;
     font-weight: bold;
     color: #001524;
