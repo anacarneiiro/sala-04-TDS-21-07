@@ -1,58 +1,58 @@
 [
     {
         "id": 1,
-        "descricao":"Centro de Doces",
-        "imagem": "../Dados/Images/doces.jpg",
-        "preco": 110.0
+        "descricao":"carro do batman",
+        "imagem": "../Dados/Images/batman.png",
+        "preco": 800000000
     },
     {
         "id": 2,
-        "descricao":"Centro de Salgados",
-        "imagem": "../Dados/Images/salgados.webp",
-        "preco": 100.0
+        "descricao":"Bugatti",
+        "imagem": "../Dados/Images/bugatti.png",
+        "preco": 36000000
     },
     {
         "id": 3,
-        "descricao":"Centro de Aperitivos",
-        "imagem": "../Dados/Images/aperitivos.jpg",
-        "preco": 70.0 
+        "descricao":"fusca",
+        "imagem": "../Dados/Images/fusca.png",
+        "preco": 15000
     },
     {
         "id": 4,
-        "descricao":"Centro de Bebidas",
-        "imagem": "../Dados/Images/ana.jpg",
-        "preco": 300.0 
+        "descricao":"lamborghini Huracan ",
+        "imagem": "../Dados/Images/huracan.png",
+        "preco": 10000000
     },
     {
         "id": 5,
-        "descricao":"Centro de Bolachas",
-        "imagem": "../Dados/Images/fi-docinho-macaron.jpg",
-        "preco": 150.0 
+        "descricao":"Mercedez AMG G63",
+        "imagem": "../Dados/Images/mercedez.png",
+        "preco": 3000000
     },
     {
         "id": 6,
-        "descricao":"Bolo de Milho",
-        "imagem": "../Dados/Images/bolo2.jpg",
-        "preco": 15.0 
+        "descricao":"Pagani huayra",
+        "imagem": "../Dados/Images/pagani.png",
+        "preco": 15000000
     },
     {
         "id": 7,
-        "descricao":"Bolo de Morango",
-        "imagem": "../Dados/Images/bol.avif",
-        "preco": 15.0 
+        "descricao":"lamborghini Urus",
+        "imagem": "../Dados/Images/Urus.png",
+        "preco": 3000000
     },
     {
         "id": 8,
-        "descricao":"Bolo de Chocolate",
-        "imagem": "../Dados/Images/bolinc.webp",
-        "preco": 15.0 
+        "descricao":"lamborghini Veneno",
+        "imagem": "../Dados/Images/veneno.png",
+        "preco": 15000000
     },
     
     {
         "id": 9,
-        "descricao":"Bolo de Dois Amores",
-        "imagem": "../Dados/Images/dois amores.png",
-        "preco": 15.0 
+        "descricao":"Porsche GT3RS",
+        "imagem": "../Dados/Images/porsche.png",
+        "preco": 2500000
     }
 
 ]

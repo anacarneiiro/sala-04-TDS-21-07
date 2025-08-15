@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url('./images/img-20190918-wa0026_13_230078-157841303770893.jpeg');
+    background-image: url("./images/image.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -19,7 +19,7 @@ body{
 
 .container{
     position: relative;
-    background-color: #684717bb;
+    background-color: #68635e;
     width: 90vw;
     height: 402px;
     border: 2px solid #FFECD1;
@@ -34,14 +34,14 @@ body{
 }
 
 .round{
-    background-color: #ffa200;
+    background-color: #ffffff;
     width: 125px;
     height: 125px;
     border-radius: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #FFECD1;
+    border: 2px solid #000000;
     position: absolute;
     top: -1%;
     left: 50%;
@@ -74,7 +74,7 @@ body{
 
 
 .wrap-input-label label{
-    color: #FFECD1;
+    color: #000000;
     font-size: 20px;
     margin-bottom: 5px;
 }
@@ -86,7 +86,7 @@ body{
     width: 100%;
     border-bottom: 2px solid #FFECD1;
     font-size: 18px;
-    color: #FFECD1;
+    color: #68635e;
 }
 
 input::placeholder{
@@ -97,15 +97,15 @@ input::placeholder{
 input:focus{
     border: none;
     outline: none;
-    color:#FF7D00;
+    color:#000000;
     font-size: 16px;
-    border-bottom: 2px solid #ff7b00;
+    border-bottom: 2px solid #000000;
 }
 
 .btn-login{
     padding: 10px;
     width: 81%;
-    background-color: #ff9100;
+    background-color: #68635e;
     border-radius: 999px;
     border: none;
     border: 2px solid #ffffff;
@@ -118,13 +118,13 @@ input:focus{
 .btn-login:hover{
     box-shadow: #00152473 0px 8px 24px;
     cursor: pointer;
-    color: #FFECD1;
+    color: #000000;
     border: 2px solid #FFECD1;
 }
 
 p{
     text-decoration: underline;
-    color: #FFECD1;
+    color: #000000;
     font-size: 12px;
     opacity: 0.8;
     transition: all 200ms ease-in-out;
@@ -142,7 +142,7 @@ p:hover{
     align-items: center;
     width: auto;
     height: auto;
-    background-color: lightpink;
+    background-color: #68635e;
     gap: 2vh;
     padding: 10px;
     position: absolute;
