@@ -1,22 +1,22 @@
 function login(){
     var nome = $('#nome').val()
     var senha = $('#senha').val()
-console.log(nome,senha)
-    if(nome && senha && nome === "Ana Clara" && senha === "12345"){
-        const user ={
+    console.log(nome, senha)
+
+    // Permite login com qualquer nome e senha, desde que os campos não estejam vazios
+    if(nome && senha){
+        const user = {
             name: nome,
             dataEntrada: new Date(),
             id: Math.floor(Math.random() * 100000)
         };
         localStorage.setItem("usuario", JSON.stringify(user))
         window.location.href = "../Loja/index.html"
-
-    }else{
+    } else {
         document.getElementById("error-modal").style.display = "flex"
         document.getElementById("nome").style.borderBottom = "3px solid red"
         document.getElementById("senha").style.borderBottom = "3px solid red"
     }
-    
 }
 function fecharError(){
     document.getElementById("error-modal").style.display = "none"
@@ -37,4 +37,5 @@ function showPassword(){
     input_senha.setAttribute('type', 'password')
     img_eye.setAttribute('src', './Images/eye-not.png')
 }
+
 }

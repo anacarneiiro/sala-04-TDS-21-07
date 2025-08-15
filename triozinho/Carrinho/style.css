@@ -13,7 +13,7 @@
     transform: translate(-50%, -50%);
     padding: 20px;
     background-color: green;
-    color: white;
+    color: rgb(255, 0, 0);
     font-size: 1.4rem;
     width: auto;
 }
